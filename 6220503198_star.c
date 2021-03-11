@@ -11,18 +11,19 @@ int main()
     x =(n-1)/2;
 
 }
-   for(i=1;i<=n;i++)
+   for(i=1;i<=n/2;i++)
    {
-       for(j=1;j<=2*n-1;j++)
-       {
-           if(j>=n-(i-1)&&j<=n+(i-1))
-           {
-                 printf("-");
-           }
-           else
-           {
-               printf("*");
-           }
+       for(j=1;j<=n/2;j++)
+
+    {
+        printf("-");
+    }
+    printf("*");
+    for()
+    {
+
+    }
+
        }
 
         printf("\n");
