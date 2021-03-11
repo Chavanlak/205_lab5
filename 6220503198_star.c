@@ -16,18 +16,18 @@ int main()
        for(j=1;j<=(n/2)-i;j++)
 
     {
-        printf("_");
+        printf("-");
     }
     printf("*");
     for(k=1;k<=(i-1)*2-1;k++)
     {
-        printf("_");
+        printf("-");
     }
     if(i!=1)
         printf("*");
         for(h=1;h<=(n/2)-i;h++)
         {
-            printf("_");
+            printf("-");
         }
 printf("\n");
    }
@@ -35,18 +35,18 @@ for(i=x;i>=1;i--)
 {
     for(j=1;j<=(n/2)-i;j++)
     {
-         printf("_");
+         printf("-");
     }
   printf("*");
 for(k=1;k<=(i-1)*2-1;k++)
      {
-        printf("_");
+        printf("-");
     }
     if(i!=1)
         printf("*");
         for(h=1;h<=(n/2)-i;h++)
         {
-            printf("_");
+            printf("-");
         }
 
   printf("\n");
