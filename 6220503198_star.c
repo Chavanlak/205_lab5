@@ -5,7 +5,7 @@ int main()
    printf("Enter : ");
    scanf("%d",&n);
    int x =n/2;
-    if(n%2==0)
+    if(n%2!=0)
 {
     n++;
     x =(n-1)/2;
@@ -13,7 +13,7 @@ int main()
 }
    for(i=1;i<=n/2;i++)
    {
-       for(j=1;j<=n/2;j++)
+       for(j=1;j<=(n/2)-i;j++)
 
     {
         printf("_");
@@ -29,9 +29,7 @@ int main()
         {
             printf("_");
         }
-
-
-        printf("\n");
+printf("\n");
    }
 
 
