@@ -31,7 +31,23 @@ int main()
         }
 printf("\n");
    }
+for(i=x;i>1;i--)
+{
+    printf("_");
+}
+printf("*");
+  for(k=1;k<=(i-1)*2-1;k++)
+     {
+        printf("_");
+    }
+    if(i!=1)
+        printf("*");
+        for(h=1;h<=(n/2)-i;h++)
+        {
+            printf("_");
+        }
 
+  printf("\n");
 
 
 }
