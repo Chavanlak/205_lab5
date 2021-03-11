@@ -31,12 +31,14 @@ int main()
         }
 printf("\n");
    }
-for(i=x;i>1;i--)
+for(i=x;i>=1;i--)
 {
-    printf("_");
-}
-printf("*");
-  for(k=1;k<=(i-1)*2-1;k++)
+    for(j=1;j<=(n/2)-i;j++)
+    {
+         printf("_");
+    }
+  printf("*");
+for(k=1;k<=(i-1)*2-1;k++)
      {
         printf("_");
     }
@@ -48,6 +50,6 @@ printf("*");
         }
 
   printf("\n");
-
+}
 
 }
