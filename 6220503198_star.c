@@ -2,8 +2,7 @@
 int main()
 {
     int n,i,j,k,h;
-   printf("Enter : ");
-   scanf("%d",&n);
+    scanf("%d",&n);
    int x =n/2;
     if(n%2!=0)
 {
